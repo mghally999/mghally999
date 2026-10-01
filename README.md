@@ -1,20 +1,30 @@
-### Mohammed Ghally
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Mohammed Ghally, full-stack developer in Dubai" src="assets/header-light.svg" width="100%">
+</picture>
 
-Full-stack developer in Dubai. I've spent the last seven years building web and mobile products with React, Next.js, TypeScript and Node.js, first for large clients like Etisalat by e&, Qatar National Bank and EgyptAir, and more recently as the person running technology for a group of companies here in Dubai.
+I build web and mobile products with React, Next.js, TypeScript and Node.js, and lately I've also been the person a group of companies calls when anything technical needs deciding. Most of that work is private, so here's the short version.
 
-Most of what I've shipped lives in private company repos: a multi-entity ERP that finance teams in Dubai and Belgium use every day, company websites, internal tools and AI automations. What's public here is a smaller slice, but it's an honest picture of how I work.
+### Things you can open right now
 
-**A few things worth a look**
+| | What it is | Built with |
+|---|---|---|
+| [**Live monitoring dashboard**](https://live-dashboard-lilac.vercel.app/) | Real-time events at 1,000 a second without the UI choking. Every frame is treated as untrusted and rebuilt before it's shown. [Code](https://github.com/mghally999/live-dashboard) | React 19, TypeScript, virtualised lists, Vitest |
+| [**Park & Launch**](https://github.com/mghally999/park-and-launch) | Marine services app: boat parking, deliveries and charters, with live GPS tracking | React Native, Node.js, MongoDB, Socket.io |
+| [**Montaigne Design**](https://www.montaignedesignmena.com/en) | Company site for an interior design firm, live in production | Next.js |
+| [**Build-Tech**](https://build-tech.ae) | Company site for a coatings contractor, live in production | Website and hosting |
+| [**Sofia Contracting**](https://sofiacontracting.com) | Company site for a Dubai contractor, live in production | Website and hosting |
+| [**Suofeiya MENA**](https://suofeiyamena.com) | Regional site for a furniture and interiors brand | Next.js |
 
-- **live-dashboard**: a real-time dashboard that stays smooth at 1,000 messages a second. Every frame from the stream is treated as untrusted, then validated and rebuilt before it reaches the UI. [Live demo](https://live-dashboard-lilac.vercel.app/)
-- **3s-registration-module**: a .NET 8 API with clean architecture, CQRS and an outbox so events never get lost, with a React and TypeScript form on top.
-- **park-and-launch**: a marine services app in React Native with a Node.js and MongoDB backend, live GPS over Socket.io and JWT auth.
-- **connecting-communities**: a Next.js site with a scroll-driven three.js tour, where the same scroll position always renders the same scene.
-- **duwat-istikneh**: an Arabic cafe menu rebuilt from a 38 MB PDF into a fast Next.js site with real text.
-- **otilia**: a bilingual English and Arabic site for a Dubai interior design studio.
+The thing I'm proudest of isn't linkable: an ERP that finance and operations teams in Dubai and Belgium use every day, with approval flows and access rules that keep each company's numbers separate.
 
-**How I like to work**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg">
+  <img alt="Work history" src="assets/timeline-light.svg" width="100%">
+</picture>
 
-I write down what "done" looks like before I start. I use AI coding tools every day, and I review what they produce the way I'd review a pull request from someone new to the team. And I care about the unglamorous parts: loading and error states, slow networks, and what happens when two people press the same button at once.
+### How I work
 
-mohammedghallydev@gmail.com · [LinkedIn](https://www.linkedin.com/in/mghally999/)
+I write down what "done" looks like before I start, including the boring states: loading, empty, error, slow network. I use AI coding tools every day and read their output like a pull request from someone new. And I like being close to the people who actually use the thing.
+
+[mohammedghallydev@gmail.com](mailto:mohammedghallydev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mghally999/) · open to full-time roles in the UAE
